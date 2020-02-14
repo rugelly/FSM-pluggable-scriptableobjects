@@ -15,6 +15,7 @@ But: <State> is ugly and <Controller> doesn't have full(or any, really) use of t
 - Add [CreateAssetMenu] above your new script class, use Paths.whatever for some static strings to make menuName="" filling out easier. See MenuNamePaths.cs for deets, should be self-explanitory.
 - Once your custom Action/Connection is written + has [CreateAssetMenu] you can: RClick->Create->Pluggable FSM/Actions/*action name here*    .../Connections/*connection name here*
 - Drag and drop these into states
+- Drag your *initial* state into the last spot of the Controller.stack List. (really the list should only have a length of 1 to start)
 
 
 # Some changes from unity's tut:
