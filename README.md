@@ -8,6 +8,7 @@ But: <State> is ugly and <Controller> doesn't have full(or any, really) use of t
 
 
 # How To Use: 
+** there is some test actions/connections in there for ref if you want **
 - RClick->Create->Pluggable FSM->State
 - Create a script using namespace PluggableFSM
 - For Actions inherit from Action, Connections inherit from Connection
